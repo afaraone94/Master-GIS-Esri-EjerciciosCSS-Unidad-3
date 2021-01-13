@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Ejercicio 6</title>
+    <style>
+        .flex-container {
+            display: flex;
+            background-color: white;
+        }
+
+        .flex-item-1 {
+            background-color: rgb(128, 128, 128);
+            text-align: center;
+            padding: 50px;
+        }
+
+        .flex-item-2 {
+            background-color: white;
+            text-align: center;
+            padding: 50px;
+            color: gray;
+        }
+
+        .reserva {
+            background-color: white;
+            border-radius: 50px;
+            text-align: center;
+            color: black;
+            width: 130px;
+            margin: 100px;
+        }
+
+        .reserva:hover {
+            color: #1883ba;
+            background-color: black;
+        }
+
+        .presupuesto {
+            background-color: gray;
+            border-radius: 50px;
+            text-align: center;
+            color: white;
+            width: 130px;
+            margin: 100px;
+        }
+
+        .presupuesto:hover {
+            color: #1883ba;
+            background-color: #ffffff;
+        }
+
+        .flex-item-3 {
+            flex-wrap: nowrap;
+            background-color: white;
+            text-align: center;
+            padding: 50px;
+            color: gray;
+            position: relative;
+            top: 200px;
+        }
+
+        .flex-item-4 {
+            background-color: white;
+            text-align: center;
+            padding: 50px;
+            color: gray;
+        }
+
+        .flex-item-5 {
+            background-color: white;
+            text-align: center;
+            padding: 50px;
+            color: gray;
+        }
+
+        .calificacion {
+            background-color: gray;
+            border-radius: 5px;
+            color: black;
+            text-align: center;
+            padding: 10px;
+            float: right;
+            position: relative;
+            bottom: 125px;
+            left: 28px;
+        }
+
+        .numero {
+            position: relative;
+            bottom: -150px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div class="flex-item-1">
+            <p class="numero">100x100</p>
+        </div>
+        <div class="flex-item-2">
+            <h2>Centro de Salud</h2>
+            <h3>Medicina general</h3>
+            <div class="flex-item-3">
+                <input class="reserva" type="submit" value="Reserva cita">
+                <input class="presupuesto" type="submit" value="Pedir presupuesto">
+            </div>
+        </div>
+        <div class="flex-item-4">
+            <div class="flex-item-5">
+                <p>10 comentarios</p>
+                <p>Ver comentarios</p>
+            </div>
+            <p class="calificacion">8.9</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
